@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="common-test-suite.xml" />
+	<munit:test name="common-test-suite-error-response-subFlowTest" doc:id="ed3e2cb4-d54f-4df6-8177-13dd4a25d4be" description="Test">
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to error-response-subFlow" doc:id="66986c1b-f61b-4797-a9d1-6baba90d7b76" name="error-response-subFlow"/>
+		</munit:execution>
+	</munit:test>
+
+
+</mule>
