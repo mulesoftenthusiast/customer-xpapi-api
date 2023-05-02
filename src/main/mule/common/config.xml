@@ -20,4 +20,5 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
     <configuration-properties doc:name="Configuration properties" doc:id="722184e5-dad4-4fd6-9462-d42d8f446d2e" file="properties/${env}.yaml" />
 	<configuration-properties doc:name="Configuration properties" doc:id="6ab87051-27bb-487a-bf4a-68233ebc5da5" file="properties/constraints/error-details.yaml" />
 	<configuration doc:name="Configuration" doc:id="a7ebf537-695c-4aaa-8820-535c2910ff67" defaultErrorHandler-ref="apikit-global-errorError_Handler" />
+	<api-gateway:autodiscovery apiId="18662598" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="cbe6e116-e26b-45a8-8bbe-16f784478262" flowRef="api-main" />
 	</mule>
